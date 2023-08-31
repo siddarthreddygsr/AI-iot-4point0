@@ -15,7 +15,7 @@ def handle_message(data):
     print(f"Received from server: {data}")
 
 if __name__ == '__main__':
-    sio.connect('http://127.0.0.1:5000')
+    sio.connect('http://139.59.93.116:5000')
     
     try:
         sio.wait()
